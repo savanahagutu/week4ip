@@ -23,3 +23,25 @@ ul{
 a{
     text-decoration: none;
 }
+
+
+/*--------NAVIGATION SECTION--------*/
+.nav{
+    max-width: 1024px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .nav_menu{
+        position: fixed;
+        top:-100%;
+        left: 0;
+        width: 100%;
+        padding: 1.5rem 0 1rem;
+        text-align: center;
+        background-color:#1D2521 ;
+    }
+}
