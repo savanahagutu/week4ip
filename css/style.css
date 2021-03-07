@@ -175,7 +175,41 @@ a{
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+.services_content{
+    text-align: center;
+}
 
+.services_img{
+    width: 64px;
+    height: 64px;
+    fill: #069C54;
+    margin-bottom: 1rem;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.section-title, .section-subtitle {
+    text-align: center;
+}
+
+.services-title{
+    font-size: 1rem;
+    color: #393939;
+    margin-bottom: .5rem;
+}
+ 
+.section-subtitile{
+    display: block;
+    color: #069C54;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.services_description{
+    padding: 0 1.5rem;
+}
 
 
 
