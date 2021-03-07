@@ -282,8 +282,13 @@ a{
 
 /*-------CONTACT SECTION----------*/
 
+.contact_container{
+    text-align: center;
+}
 
-
+.contact_description{
+    margin-bottom: 1.5rem;
+}
 
 
 
