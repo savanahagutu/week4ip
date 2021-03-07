@@ -76,3 +76,8 @@ a{
     font-size: 1.3rem;
     cursor: pointer;
   }
+
+  /*-------Show menu section--------*/
+  .show_menu{
+      top: 3rem;
+  }
