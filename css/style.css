@@ -75,19 +75,19 @@ a{
 
 }
 
-.nav__logo:hover{
+.nav_logo:hover{
     color: #069C54;
   }
   
-.nav__link{
+.nav_link{
     transition: .3s;
 }
   
-.nav__link:hover{
+.nav_link:hover{
     color: #069C54;
 }
   
-.nav__toggle{
+.nav_toggle{
     font-size: 1.3rem;
     cursor: pointer;
 }
@@ -253,4 +253,21 @@ a{
 }
 
 /*-------END OF LAYOUT SECTION-------*/
+
+/*-------HOME SECTION---------*/
+
+
+
+
+/*-------END OF HOME SECTION--------*/
+
+/*--------MEDIA QUERIES SECTION-------*/
+
+
+
+
+
+
+
+/*--------END OF MEDIA QUERIES SECTION-------*/
 
