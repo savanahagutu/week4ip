@@ -167,3 +167,16 @@ a{
 }
 
 /*--------END OF ABOUT SECTION--------*/
+
+/*--------SERVICES SECTION-----------*/
+
+.services_container{
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+
+
+
+
+/*--------END OF SERVICES SECTION-------*/
