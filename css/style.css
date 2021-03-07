@@ -64,20 +64,51 @@ a{
     color: #069C54;
   }
   
-  .nav__link{
+.nav__link{
     transition: .3s;
-  }
+}
   
-  .nav__link:hover{
+.nav__link:hover{
     color: #069C54;
-  }
+}
   
-  .nav__toggle{
+.nav__toggle{
     font-size: 1.3rem;
     cursor: pointer;
-  }
+}
 
-  /*-------Show menu section--------*/
-  .show_menu{
+/*-------Show menu section--------*/
+.show-menu{
       top: 3rem;
-  }
+}
+
+/*-----Active menu section-------*/
+.active-link{
+      color:#069C54 ;
+}
+
+/*-----Background header-----*/
+.scroll-header{
+      box-shadow:0 2px 4px rgba(0,0,0,.1) ;
+}
+
+/*-----Scroll top section------*/
+.scrolltop{
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem;
+    background-color: rgba(6,156,84,.5);
+    border-end-start-radius: .4rem;
+    z-index: 10;
+    transition: .4s;
+    visibility: hidden;
+}
+
+.scrolltop:hover{
+    background-color:  #048654;
+    
+}
