@@ -229,6 +229,13 @@ a{
 
 /*--------END OF SERVICES SECTION-------*/
 
+/*--------HOME SECTION-----------*/
+
+
+
+
+/*-------END OF HOME SECTION------*/
+
 /*--------LAYOUT SECTION----------*/
 
 .bd-container{
@@ -284,7 +291,15 @@ a{
 /*-------BUTTONS----------*/
 .button{
     display: inline-block;
-    
+    background-color: #069C54;
+    color: #FFF;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.button:hover{
+    background-color: #048654;
 }
 
 /*--------MEDIA QUERIES SECTION-------*/
