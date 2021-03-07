@@ -1,6 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
     margin: 3rem 0 0 0;
     font-family:'Poppins', sans-serif;
@@ -308,6 +308,48 @@ img{
 .contact_description{
     margin-bottom:  1.5rem;
 }
+
+/*----------ORDER SECTION--------------*/
+
+/*#order-pizza{
+    color: #0000;
+}*/
+
+.order-summary h1, .summary{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+.titles{
+    color: rgb(253, 253, 253);
+    font-family:'Open Sans', sans-serif ;
+    font-size: 19px;
+    font-weight: 14px;
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+/*END OF ORDER SECTION*/
+
   
 /*========== FOOTER ==========*/
 .footer_container{
