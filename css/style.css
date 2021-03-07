@@ -151,10 +151,19 @@ a{
 
 /*--------ABOUT SECTION-----------*/
 
+.about_data{
+    text-align: center;
+}
 
+.about_description{
+    margin-bottom: 1.5rem;
 
+}
 
-
-
+.about_img{
+    width: 280px;
+    border-radius: .5rem;
+    justify-self: center;
+}
 
 /*--------END OF ABOUT SECTION--------*/
