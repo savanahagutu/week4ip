@@ -346,7 +346,23 @@ img{
     margin-top: 20px;
 }
 
+.deliver, .delivernot, button[type=submit]{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #03665e;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 13px;
+    font-size: 14px;
+}
 
+.deliver, .delivernot{
+    margin: 10px;
+}
 
 /*END OF ORDER SECTION*/
 
