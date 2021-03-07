@@ -230,8 +230,52 @@ a{
 /*--------END OF SERVICES SECTION-------*/
 
 /*--------HOME SECTION-----------*/
+.menu_container{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
 
+.menu_content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #27302C;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(3,74,40, 15);
+    padding: .85rem;
+}
 
+.menu_img{
+    width: 100px;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.menu_name, .menu_price{
+    font-weight:40px ;
+    color: rgb(247, 255, 251);
+}
+
+.menu_name{
+    font-size:20px ;
+}
+
+.menu_detail, .menu_price{
+    font-size: 18px;
+}
+
+.menu_detail{
+    margin-bottom: 1rem;
+}
+
+.menu_button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    padding: .625rem .813rem;
+    border-radius: .5rem 0 .5rem 0;
+}
 
 
 /*-------END OF HOME SECTION------*/
