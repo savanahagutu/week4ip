@@ -1,6 +1,21 @@
 /*GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+*,::before,::after{
+    box-sizing: border-box;
+}
 
+html{
+    scroll-behavior: smooth;
+}
+
+.change-theme{
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    color: #707070;
+    font-size: 1rem;
+    cursor: pointer;
+}
 body{
     margin: 0;
     padding: 0;
@@ -212,5 +227,30 @@ a{
 }
 
 
-
 /*--------END OF SERVICES SECTION-------*/
+
+/*--------LAYOUT SECTION----------*/
+
+.bd-container{
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.bd-grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.l-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #FBFEFD;
+}
+
+/*-------END OF LAYOUT SECTION-------*/
+
