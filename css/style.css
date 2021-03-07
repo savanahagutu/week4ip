@@ -229,7 +229,7 @@ a{
 
 /*--------END OF SERVICES SECTION-------*/
 
-/*--------HOME SECTION-----------*/
+/*--------MENU SECTION-----------*/
 .menu_container{
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -278,7 +278,16 @@ a{
 }
 
 
-/*-------END OF HOME SECTION------*/
+/*-------END OF MENU SECTION------*/
+
+/*-------CONTACT SECTION----------*/
+
+
+
+
+
+
+/*-------END OF CONTACT SECTION------*/
 
 /*--------LAYOUT SECTION----------*/
 
