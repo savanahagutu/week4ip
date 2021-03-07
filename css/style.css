@@ -281,6 +281,12 @@ a{
 
 /*-------END OF HOME SECTION--------*/
 
+/*-------BUTTONS----------*/
+.button{
+    display: inline-block;
+    
+}
+
 /*--------MEDIA QUERIES SECTION-------*/
 
 
