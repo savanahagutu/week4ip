@@ -381,8 +381,8 @@ $(function () {
                     break;
                     case type = "The Works":
                         switch (size) {
-                            case size = "regular":
-                                price = 300;
+                            case size = "small":
+                                price = 10.50;
                                 if (crust === "thin") {
                                     totalPrice = (price * number) + 100;
                                 } else if (crust === "thick") {
@@ -394,7 +394,7 @@ $(function () {
                                 }
                                 break;
                             case size = "medium":
-                                price = 600;
+                                price = 14.50;
                                 if (crust === "thin") {
                                     totalPrice = (price * number) + 100;
                                 } else if (crust === "thick") {
@@ -406,7 +406,7 @@ $(function () {
                                 }
                                 break;
                             case size = "large":
-                                price = 1200;
+                                price = 20.50;
                                 if (crust === "thin") {
                                     totalPrice = (price * number) + 100;
                                 } else if (crust === "thick") {
@@ -420,38 +420,38 @@ $(function () {
                         }
                         break;    
         }
-        switch (topping) {
-            case topping = "tomato":
+        switch (toppings) {
+            case toppings = "Black Olives":
                 totalPrice = totalPrice + 80;
                 break;
-            case topping = "onions":
+            case toppings = "onions":
                 totalPrice = totalPrice + 80;
                 break;
-            case topping = "mushroom":
+            case toppings = "mushroom":
                 totalPrice = totalPrice + 80;
                 break;
-            case topping = "greenpepper":
+            case toppings = "greenpepper":
                 totalPrice = totalPrice + 80;
                 break;
-            case topping = "olives":
+            case toppings = "olives":
                 totalPrice = totalPrice + 120;
                 break;
-            case topping = "pineapple":
+            case toppings = "pineapple":
                 totalPrice = totalPrice + 120;
                 break;
-            case topping = "sweetcorn":
+            case toppings = "sweetcorn":
                 totalPrice = totalPrice + 120;
                 break;
-            case topping = "macon":
+            case toppings = "bacon":
                 totalPrice = totalPrice + 120;
                 break;
-            case topping = "mince":
+            case toppings = "beef":
                 totalPrice = totalPrice + 120;
                 break;
-            case topping = "beef":
+            case toppings = "extra cheese":
                 totalPrice = totalPrice + 170;
                 break;
-            case topping = "chicken":
+            case toppings = "chicken":
                 totalPrice = totalPrice + 170;
                 break;
 
@@ -465,7 +465,7 @@ $(function () {
         // let myOrder = JSON.stringify(JSON.parse(newOrder));
 
         //Write to the order
-        $('.summary').slideDown(2000);
+        $('#summary').slideDown(2000);
         $('.cdata-overlay').slideUp();
         $('#list').slideDown();
         $('.deliver').show(1000);
@@ -478,7 +478,5 @@ $(function () {
             + newOrder.t + "<br>" + " Number of pizzas :    "
             + newOrder.n + "<br>" + "Total Price :  "
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
-
-
 
     });
