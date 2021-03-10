@@ -137,7 +137,7 @@
                 <div class="form-group row">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8 order-overlay text-center">
-                        <form class="col-sm-6 offset-sm-3 text-center">
+                        <form class="col-sm-6 offset-sm-3 text-center" id="pizza">
                             <label class="titles">Type of Pizzas:</label>
                             <select class="custom-select custom-select-md mb-3 type" id="type" required>
                                 <option value="cheese">Cheese Pizza</option>
@@ -187,13 +187,13 @@
                             </select>
                             <label class="titles" for="number">Number of Pizza's</label>
                             <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-            
+                            <button type="submit" class="btn btn-success checkout" id="order-now">
+                                Order Now
+                            </button>
             
                         </form>
                         <a href="#summary">
-                            <button type="submit" class="btn btn-success checkout" id="checkout">
-                                Checkout
-                            </button>
+                            
                         </a>
             
                     </div>
@@ -202,31 +202,64 @@
             </div>
 
             <!--========ORDER SUMMARY===========-->
-            <div class="order-summary" id="sum-order">
-                <h1 class="text-center" id="summary">Order Summary</h1>
-                <h2 class="text-center summary">Hello there, your order is as follows:</h2>
-                <ol id="list" class="text-center sum">
-                </ol>
-            
-            
-                <div class="cdata-overlay">
-                    <div class="customerdata row">
-                        <div class="col-sm-3"></div>
-                        <form action="" class="form-group col-sm-6 data">
-                            <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                            <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                            <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                            <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
-                        </form>
-            
-                        <div class="col-sm-3"></div>
+            <div class="container order-details">
+                <div class="row pb-3 pt-3">
+                  <div class="col-6 justify-content-right">
+                    <h2 class="text-center">Your order</h2>
+                  </div>
+                </div>
+          
+                <table class="table order">
+                  <tbody id="order-content"></tbody>
+                </table>
+                <div id="delivery" class="pb-3">
+                  <form class="delivery">
+                    <h3>
+                      Do you want your order to be delivered? Delivery cost is 500ksh
+                    </h3>
+                    <select id="delivery-option" class="form-select mb-2">
+                      <option value="No">No</option>
+                      <option value="Yes">Yes</option>
+                    </select>
+                    <div class="row address">
+                      <label for="">ENTER ADDRESS</label>
+                      <div class="col-auto">
+                        <input
+                          id="address-input"
+                          value=""
+                          class="form-control"
+                          type="text"
+                          required
+                        />
+                      </div>
+                      <div class="col-auto">
+                        <button type="submit" class="btn btn-primary" id="add-address">
+                          Add Address
+                        </button>
+                      </div>
                     </div>
+                  </form>
                 </div>
-                <div class="d-block mx-auto text-center">
-                    <button class='deliver'>Make Delivery</button>
-                    <button class='delivernot'>Pick Up</button>
+                <div class="row pb-4">
+                  <div class="col-6">
+                    <p>
+                      Your order will be delivered to address
+                      <span id="address-details"></span>
+                    </p>
+                  </div>
+                  <div class="col-6"></div>
                 </div>
-            </div>
+                <div class="row">
+                  <div class="col-6">
+                    <button type="submit" id="checkout" class="btn btn-primary">
+                      Check out
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <h3 class="text-end">Total: ksh <span id="order-total">0</span></h3>
+                  </div>
+                </div>
+              </div>
             
 
 
@@ -296,7 +329,7 @@
         </footer>
         
         <!--========Main JS==========--> 
-        <script src="js/jquery-3.5.1.js"></script>
+        <script src="./js/jquery-3.5.1.js"></script>
         <script src="./bootstrap/bootstrap.min.js"></script>
         <script src="./js/index.js"></script>
     </body>
