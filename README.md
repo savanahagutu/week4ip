@@ -2,7 +2,7 @@
 Welcome to Luna's Pizzeria where the best pizzas in the country with just one click of a button
 
 # Live Demo
-[Check it out](https://savanahatieno.github.io/week4ip/)
+[Check it out](https://github.com/savanahagutu/week4ip.git)
 
 
 ## Description: 
@@ -15,7 +15,7 @@ A pizza ordering web application.
 ![screenshot1](https://user-images.githubusercontent.com/62004236/110426818-c8bafc00-80b7-11eb-91ef-d13525ed0e21.png)
 
 ## Setup:
-`git clone https://github.com/savanahatieno/week4ip` or download the zip file
+`git clone https://github.com/savanahagutu/week4ip.git` or download the zip file
 
 Extract the zip file
 
@@ -41,7 +41,7 @@ Extract the zip file
 | Delivery mode   | `eg No delivery`   |
 
 ## License:
->MIT LICENSE &copy; 2021 Savanah
+>MIT LICENSE &copy; 2024 Savanah
 
 ## Collaborate:
-To contribute to Luna's Pizzeria, reach me on `agutusavanah01gmail.com`.
+To contribute to Luna's Pizzeria, reach me on `savanahagutu0102@gmail.com`.
